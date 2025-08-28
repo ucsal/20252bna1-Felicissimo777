@@ -24,7 +24,7 @@ class UserStructureTest {
 		// extends User
 		// Ajuste depois de criar a superclasse
 		AdminUser a = new AdminUser(1, "Ana", "ana@x", "123");
-		assertEquals("Ana", a.getNome());
-		assertTrue(a.checkPassword("123"));
+		assertEquals("Ana", a.Nome());
+		assertTrue(a.checkpassword("123"));
 	}
 }
